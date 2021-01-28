@@ -1,0 +1,8 @@
+/* pages/login/login.wxss */
+.login-block{
+  padding-top: 100rpx;
+}
+
+.login-text{
+  text-align: center;
+}

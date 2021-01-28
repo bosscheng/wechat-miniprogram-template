@@ -1,2 +1,2 @@
-# wechat-miniprogram-template
- wechat miniprogram template
+# ims-mp
+ ims mini program

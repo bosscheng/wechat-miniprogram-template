@@ -1,0 +1,13 @@
+<!--pages/login/login.wxml-->
+<!--index.wxml-->
+<view class="page">
+  <view class="login-block">
+    <button class="login-btn" type="primary" wx:if="{{!doLogining}}" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">登录</button>
+    <block wx:else>
+      <view class="login-text"> 
+        <mp-loading type="circle" tips="登录中..."></mp-loading>
+      </view>
+    </block>
+  </view>
+</view>
+

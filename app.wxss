@@ -1,0 +1,14 @@
+/**app.wxss**/
+
+.page{
+  height: 100vh;
+  background-color: #F5F6F6;
+}
+
+.block-fixed{
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+}
